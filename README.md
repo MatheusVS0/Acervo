@@ -3,7 +3,7 @@
 
 Projeto IHC
 
- > 🔗 [Clique aqui para acessar](https://matheusvs0.github.io/NLW-esports-Explorer)
+ > 🔗 [Clique aqui para acessar](https://matheusvs0.github.io/Acervo)
 
 
 
