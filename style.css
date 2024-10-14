@@ -1,0 +1,300 @@
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+.curso img {
+    width: 100%; 
+    height: 250px; 
+    margin-bottom: 10px; 
+    border-radius: 8px; 
+}
+
+.artigo img{
+    width: 100%;
+    height: 325px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+body {
+    padding: 0;
+    width: 100%;
+    margin: 0 auto;
+    color: #333;
+}
+
+.corpo{
+    background-image: radial-gradient(circle, gray 10%, gray 10%, transparent 1%, transparent 1%);                    
+    background-size: 10px 10px;
+    background-position: 0 0, 20px 20px;
+}
+header {
+    margin-top: 0px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#49708a ;
+    border-bottom: 5px solid #cdfa5a;
+}
+
+.header__logo {
+    margin-left: 30px;
+    font-size: 30px;
+    color: #fff;
+}
+
+.header__nav ul {
+    display: flex;
+    flex-direction: row;
+    font-weight: 500;
+}
+
+.header__nav a {
+    font-family: "Poppins", sans-serif;
+    font-weight:500;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 10px;
+    list-style: none;
+    margin-right: 15px;
+    color: #fff;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.header__nav a:hover {
+    background-color: #cdfa5a; 
+    color: #333; 
+}
+
+.header__nav li {
+    list-style: none;
+}
+
+.main-title {
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+section {
+    padding: 30px 0;
+}
+
+section h2 {
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+/* Seção hero */
+.hero {
+    display: flex;
+    flex-direction: column;
+    padding: 230px 0; 
+    text-align: left;
+    align-items: left;
+    background-image: url("./imagens/Inserir\ um\ título\ \(3\).png");
+    background-size: cover;
+    background-position:center;
+    box-sizing: border-box;
+    animation: fromRight 1.7s .2s backwards;
+}
+
+@keyframes fromRight {
+    from {
+        opacity: 0;
+        transform: translateX(-1920px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
+.hero h1 {
+    font-size: 80px;
+    display: inline-block;
+    font-weight: 800;
+    color: #cdfa5a;
+    margin-bottom: 14px;
+    font-family: 'Bree Serif', serif;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #485725;
+    font-size: 100px;
+    margin-left: 50px;
+}
+
+.hero p {
+    display: inline-block;
+    font-weight: 700;
+    margin-top: 10px;
+    line-height: 1.5;
+    margin-left: 50px;
+    font-family: "Poppins", sans-serif;
+    text-shadow: 2px 2px 2px black;
+    color: #cdfa5a;
+    font-size: 35px;
+}
+
+/* Seção sobre */
+.sobre {
+    border-top: 10px solid #cdfa5a;
+    border-bottom: 10px solid #cdfa5a;
+    background-color: #49708a;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sobre h2{
+    color: #fff;
+}
+
+.sobre p{
+    max-width: 1200px;
+}
+
+
+/* Seção cursos */
+.cursos__container {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+    align-items: center;
+    margin-top: 30px;
+}
+
+.cursos h2{
+    margin: 0;
+    border-top: 5px solid #cdfa5a;
+    border-bottom: 5px solid #cdfa5a;
+    color: #fff;
+    background-color: #49708a;
+}
+
+.artigos h2{
+    margin: 0px;
+        border-top: 5px solid #cdfa5a;
+        border-bottom: 5px solid #cdfa5a;
+        background-color: #49708a;
+        color: #fff;
+}
+
+.curso {
+    background-color: #d0e0eb;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1 0 20%; /* Reduz a largura mínima para acomodar mais cards */
+    margin-bottom: 20px;
+    margin-right: 15px;
+    margin-left: 15px;
+    color: #333;
+    height: 550px;
+    
+}
+
+.artigos__container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.artigo {
+    background-color: #d0e0eb;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1 1 250px; /* Reduz a largura mínima para acomodar mais cards */
+    margin-bottom: 20px;
+    margin-right: 15px;
+    margin-left: 15px;
+    color: #333;
+}
+    
+.curso h3{
+    text-align: center;
+}
+
+.artigo h3 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Seção contato */
+.contato {
+    border-top: 10px solid #cdfa5a;
+    background-color: #49708a;
+    color: #fff;
+    text-align: center;
+}
+
+/* Rodapé */
+.footer {
+    text-align: center;
+    padding: 1px;
+    background-color: #cdfa5a;
+    color: #333;
+}
+
+
+/* Estilos para botões */
+.curso__btn,
+.artigo__btn {
+    line-height: 3.0;
+    background-color: #cdfa5a;
+    text-align: center;
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease; 
+}
+
+.curso__btn:hover,
+.artigo__btn:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+}
+
+/* Responsividade */
+@media screen and (max-width: 768px) {
+    .hero {
+        padding: 80px 0;
+    }
+
+    .hero h1 {
+        font-size: 40px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .cursos__container,
+    .artigos__container {
+        flex-direction: column; /* Empilha os cursos e artigos em telas menores */
+        align-items: center;
+    }
+
+    .curso,
+    .artigo {
+        margin-bottom: 10px; /* Espaçamento menor entre os itens */
+        flex: 1 0  50%;
+    }
+}

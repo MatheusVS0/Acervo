@@ -1,0 +1,130 @@
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+img {
+    width: 50%; 
+    height: auto; 
+    margin-bottom: 10px; 
+    border-radius: 8px; 
+}
+
+.imagem{   
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+body {
+    padding: 0;
+    width: 100%;
+    margin: 0 auto;
+    color: #333;
+    background-image: radial-gradient(circle, gray 10%, gray 10%, transparent 1%, transparent 1%);                    
+    background-size: 10px 10px;
+    background-position: 0 0, 20px 20px;
+}
+
+header {
+    margin-top: 0px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#49708a ;
+    border-bottom: 5px solid #cdfa5a;
+}
+
+.header__logo {
+    margin-left: 30px;
+    font-size: 30px;
+    color: #fff;
+}
+
+.header__nav ul {
+    display: flex;
+    flex-direction: row;
+    font-weight: 500;
+}
+
+.header__nav a {
+    font-family: "Poppins", sans-serif;
+    font-weight:500;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 10px;
+    list-style: none;
+    margin-right: 15px;
+    color: #fff;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.header__nav a:hover {
+    background-color: #cdfa5a; 
+    color: #333; 
+}
+
+.header__nav li {
+    list-style: none;
+}
+
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sobre {
+    padding: 40px;
+    margin-top: 25px;
+    border-radius: 30px;
+    width: 1300px;
+    min-height: fit-content;
+    display: flex;
+    background-color: #d0e0eb;
+    color: #333;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: left;
+}
+
+.sobre h2{
+    margin-left: 35px;
+    margin-right: 35px;
+    color: #333;
+}
+
+.sobre p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 35px;
+    margin-right: 35px;
+    max-width: 1200px;
+}
+.curso_btn{
+    line-height: 3.0;
+    background-color: #cdfa5a;
+    text-align: center;
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+    display: block;
+    width: 25%;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease; 
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.curso_btn:hover{
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+}
